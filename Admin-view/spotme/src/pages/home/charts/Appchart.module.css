@@ -1,0 +1,84 @@
+/* Css for App Pie Chart start's */
+.MuiChartsLegend-series{
+    display: none !important;
+    /* Forcefully hide the legend */
+}
+.alignpiechart{
+    margin-left: 75px;
+}
+#colorId0 {
+    width: 8px;
+    height: 8px;
+    background-color: #FFCB45;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+#colorId1 {
+    width: 8px;
+    height: 8px;
+    background-color: #FFDA7B;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+.percentageId0 {
+    margin-left: 19px;
+}
+
+#colorId2 {
+    width: 8px;
+    height: 8px;
+    background-color: #EFF4FB;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+.percentageId1 {
+    margin-left: 16px;
+}
+
+#colorId3 {
+    width: 8px;
+    height: 8px;
+    background-color: #FFB904;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+ .percentageId2 {
+    margin-left: 19px;
+}
+
+.value-item {
+    margin: 20px;
+    padding: 1px;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+.percentageId3 {
+    margin-left: 33px;
+}
+
+.pieChartLabel {
+    font-size: 12px;
+    color: #A3AED0;
+    font-weight: 500;
+}
+
+.percentage {
+    color: #2B3674;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* Css for App Pie Chart end's */

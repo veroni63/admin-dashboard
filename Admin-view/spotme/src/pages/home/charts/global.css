@@ -1,0 +1,4 @@
+.MuiChartsLegend-series {
+    display: none !important;
+    /* Forcefully hide the legend */
+}

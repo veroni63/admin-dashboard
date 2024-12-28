@@ -1,0 +1,75 @@
+.MuiPieChart .MuiChartsLegend-series {
+    display: none !important;
+}
+
+.alignpiechart {
+    margin-left: 75px;
+}
+
+.colorId0 {
+    width: 8px;
+    height: 8px;
+    background-color: #6048E4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+.colorId1 {
+    width: 8px;
+    height: 8px;
+    background-color: #F668D1;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+.colorId2 {
+    width: 8px;
+    height: 8px;
+    background-color: #FAC02A;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+.colorId3 {
+    width: 8px;
+    height: 8px;
+    background-color: #EFF4FB;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    margin-right: 4px;
+}
+
+.percentageId0 {
+    margin-left: 17px;
+}
+
+.percentageId1 {
+    margin-left: 23px;
+}
+
+.percentageId2 {
+    margin-left: 40px;
+}
+
+.percentageId3 {
+    margin-left: 17px;
+}
+
+.pieChartLabel {
+    font-size: 14px;
+    color: #A3AED0;
+    font-weight: 500;
+}
+
+.percentage {
+    color: #2B3674;
+    font-size: 17px;
+    font-weight: 700;
+}

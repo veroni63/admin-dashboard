@@ -1,0 +1,368 @@
+.dashboard-container {
+  padding: 20px 30px;
+}
+
+.page-title {
+  font-weight: 700;
+  color:  #2B3674;
+  font-size: 32px;
+}
+
+
+.stat-icon img{
+  width: 32px;
+  height: 32px;
+}
+.stat-icon-bg .stat-icon{
+  padding-left: 14px;
+  padding-top: 14px;
+}
+.stat-icon-bg{
+    background-color: #6048E4;
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
+}
+
+#item0{
+  width: 28px;
+  height: 28px;
+ }
+.stat-icon-bg #icon-bg0 {
+padding-left: 14px;
+padding-top: 13px;
+}
+#item1{
+  width: 22px;
+  height: 22px;
+ }
+.stat-icon-bg #icon-bg1 {
+padding-left: 15px;
+padding-top: 14px;
+}
+#item2{
+  width: 28px;
+  height: 28px;
+ }
+.stat-icon-bg #icon-bg2 {
+padding-left: 12px;
+  padding-top: 12px;
+}
+#item3 {
+  width: 35px;
+  height: 35px;
+}
+
+.stat-icon-bg #icon-bg3 {
+  padding-left: 8px;
+  padding-top: 9px;
+}
+#item4 {
+  width: 32px;
+  height: 32px;
+}
+
+.stat-icon-bg #icon-bg4 {
+  padding-left: 11px;
+  padding-top: 11px;
+}
+.stat-card{
+  margin-left: -17px;
+  margin-right: 4px;
+ 
+}
+.stat-title {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2B3674;
+}
+.pieChartTitle{
+  font-size: 16px;
+  font-weight: 700;
+  color: #2B3674;
+  padding-top: 5px;
+  padding-bottom: -6px;
+  padding-left: 10px;
+}
+.small{
+   color: #2B3674;
+   font-size: 11px;
+   
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2B3674;
+}
+
+.chart-card, .trending-card, .world-card, .city-card, .admin-card {
+  border-radius: 20px;
+  border: none;
+
+}
+.chart-card{
+  margin-left: -8px;
+  width: 340px;
+  height: 320px;
+}
+.chart-placeholder, .map-placeholder {
+  height: 250px;
+  background-color: #e9ecef;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trending-table th, .trending-table td {
+  vertical-align: middle;
+}
+.trending-table thead tr th{
+  color: #A3AED0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.trending-table tbody .trending-row   td{
+  color: #2B3674;
+  font-size: 14px;
+  font-weight: 700;
+}
+.city-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.city-list li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.admin-name {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* TrendingRequests.css */
+
+.trending-card {
+  border-radius: 12px;
+  background-color: #f8f9fa; /* Light background for a clean look */
+  padding: 20px;
+  margin-left: -13px;
+}
+
+.trending-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+ 
+  color: #2B3674; /* Darker title for contrast */
+}
+
+.trending-table {
+  font-size: 0.9rem; /* Smaller font for a more refined look */
+}
+
+.trending-row {
+  transition: background-color 0.3s ease;
+}
+
+.trending-row:hover {
+  background-color: #f1f3f5; /* Subtle hover effect for rows */
+}
+
+.trending-image {
+  width: 40px;
+  height: 40px;
+}
+
+.rating-badge {
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.status-badge {
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.options-icon {
+  font-size: 1.2rem;
+  color: #6c757d; /* Subtle color for the options icon */
+  cursor: pointer;
+}
+
+.options-icon:hover {
+  color: #343a40; /* Darker color on hover for better visual feedback */
+}
+
+/* Dashboard.css */
+
+.world-map {
+  height: 300px;
+  /* background-color: #eef2f5; Light grey background */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  /* Placeholder color */
+  position: relative;
+}
+
+.city-item {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  color: black;
+  border: none;
+}
+.topcity{
+  color: black !important;
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.city-percentage{
+  padding-right: 28px;
+  
+}
+
+.reports-table th, .reports-table td {
+  vertical-align: middle;
+}
+
+.reports-table .report-image {
+  width: 40px;
+  height: 40px;
+}
+
+.rating-badge, .status-badge {
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.admin-member {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-image {
+  width: 40px;
+  height: 40px;
+}
+
+.admin-info {
+  flex-grow: 1;
+}
+
+.options-icon {
+  cursor: pointer;
+}
+
+.options-icon:hover {
+  color: #007bff;
+}
+/* Dashboard.css */
+
+.world-domination{
+  font-size: 24px;
+  font-weight: 700;
+  color: #2B3674;
+}
+
+.top-cities-overlay {
+  position: absolute;
+  top: 10%;
+  right: -12px;
+  width: 250px;
+}
+
+.top-cities-card {
+background: linear-gradient(138.63deg, #FAC02A -0.03%, #F668D1 71.91%, #7131D2 113.15%);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.reports-table{
+  overflow: hidden;
+}
+.recent-report{
+  width: 879px;
+  height: 418px;
+}
+.reports-table th,
+.reports-table td {
+  text-align: center;
+}
+
+.reports-table .report-image {
+  width: 50px;
+  height: 50px;
+}
+
+.reports-table .rating-badge {
+  font-size: 0.875rem;
+}
+
+.reports-table .status-badge {
+  font-size: 0.875rem;
+}
+
+.reports-table .options-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.admin-image {
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.admin-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.options-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.text-primary {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+
+
+.subtitle{
+  margin: 0px;
+  font-size: 11px;
+}
+
+/* changes */
+.overAllTotal{
+  width: 209px;
+  height: 128px;
+  border-radius: 10px;
+  border: 1px;
+  margin: 0px;
+}
+.overAllTotalRow{
+  margin-bottom: 20px;
+}
+.trending-title{
+  font-size: 24px;
+  font-weight: 700;
+  color: #2B3674;
+}

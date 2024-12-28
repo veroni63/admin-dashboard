@@ -1,0 +1,154 @@
+.parent-container{
+    display: grid;
+    place-items: center;
+    /* height: 100vh; */
+   
+}
+.bg-container{
+        width: 950px;
+        height: 500px;
+        background: #FFFFFF;
+        border: 0.5px solid #A3AED0;
+        border-radius: 30px;
+        padding: 30px 20px 20px 60px;
+        margin-bottom: 10%;
+        margin-top: 60px;
+}
+.bg-container .form-control{
+    width: 360px;
+    border-radius: 10px;
+    Height: 40px;
+    margin-bottom:25px ;
+    background-color:#F4F5F9;
+    border:solid 0.5px;
+    border-color: #A3AED0;
+    /* code to remove defalut bootstrap css */
+    outline: none ;
+    box-shadow: none ;
+       
+}
+.bg-container .form-control::placeholder {
+    color: #A3AED0;
+} 
+.bg-container button{
+    background: #6048E4;
+    height: 40px;
+    width: 360px;
+    font-weight: 400; 
+    border: none;
+    border-radius: 8px;
+    color: #F4F5F9;
+}
+.bg-container img{
+    width: 395px;
+    height:405px;
+}
+.titleName{
+    color: #2B3674;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.colortext{
+    color: #6048E4;
+}
+a{
+    text-decoration: none;
+}
+.bg-container .form-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #A3AED0;
+}
+.headerName{
+    width: auto;
+    height: 73px;
+    text-align: center;
+    color: #2B3674;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 15px;
+    background-color: #FFFFFF
+    ;
+}
+
+/* CSS for OPT page */
+.otpInput{
+    width: 55px !important;
+    height: 55px !important;
+    margin: 50px 20px 50px 20px;
+}
+
+/* Css for Login */
+.colortextlabel {
+    color: #2B3674;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ForgetPass {
+    text-align: end;
+    margin-right: 57px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* CSS for forget password */
+.LinkText{
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+/* 
+Css for setup profile */
+
+.bg-container textarea{
+    width: 360px;
+    height: 100px !important;
+    border-radius: 10px;
+    background-color: #F4F5F9;
+    border: solid 0.5px;
+    border-color: #A3AED0;
+}
+.bg-container textarea::placeholder {
+    color: #A3AED0;
+    position: relative;
+    top: 1px;
+}
+.profileImg{
+      margin-left: 112px;
+      margin-bottom: 26px;
+      width: 120px;
+      height: 120px;
+      background-color: #EAEDF2;
+      border-radius: 50%;
+}
+
+.bg-container .editbutton {
+    position: absolute;
+    top: 152px;
+    left: 207px;
+    background: #A3AED0;
+    height: 32px;
+    width: 32px;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: none;
+    border: none;
+}
+.bg-updatedcontainer {
+    width: 950px;
+    height: 650px;
+    background: #FFFFFF;
+    border: 0.5px solid #A3AED0;
+    border-radius: 30px;
+    padding: 30px 18px 18px 58px;
+    margin-bottom: 10%;
+    margin-top: 60px;
+}
+.bg-updatedcontainer .img-fluid{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 410px;
+    height: 405px;
+}
